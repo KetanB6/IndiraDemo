@@ -1,140 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+	<head>
+		<title>Personal Profile</title>
+	</head>
+	
+	<style>
+		img {
+			position: relative;
+			left: 30px;
+			top: 40px;
+		}
+		.profile_data {
+			position: relative;
+			left: 300px;
+			top: -110px;
+		}
+	</style>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Incredible India | Explore the Unexplored</title>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
-</head>
+	<body>
+		<img src="https://media.licdn.com/dms/image/v2/D5603AQHXoeyPDObtgA/profile-displayphoto-scale_200_200/B56ZykGkeOI0AY-/0/1772279715204?e=2147483647&v=beta&t=nLQpucsRZgcbxw_br1de0ObliSNtESk9eidw9RU3YO0" height="150px" style="border-radius:50%;">
+		<div class="profile_data">
+			<h1>Ketan Bidve</h1>
+   			<p><em>Student at Indira College of Engineering & Management <a href="https://indiraicem.ac.in/">(ICEM)</a></em></p>
+			<p>I am a java backend developer with basic understanding of UI development. </p>
+		</div>
+		<hr>
+			
+		<h3>Hobbies of mine:</h3>
+		<ul>
+			<li><a href="https://www.youtube.com/watch?v=Dp8dYLvoY4Y">Playing Flute</a></li>
+			<li><a href="https://www.youtube.com/watch?v=_1Rvqgs3MEI">Playing Cricket</a></li>
+		</ul>
 
-<body>
 
-    <!-- Navbar -->
-    <header class="navbar">
-        <div class="logo">
-            <h1>Incredible India <span>🇮🇳</span></h1>
-        </div>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Culture</a>
-            <a href="#">Destinations</a>
-            <a href="#">Contact</a>
-        </nav>
-    </header>
+		<h3>Roommates: 🙌</h3>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content fade-in-up">
-            <h2>Discover the <span class="highlight">Soul</span> of India</h2>
-            <p>From the snowy peaks of Himalayas to the tropical backwaters of Kerala.</p>
-            <button class="cta-button">Explore Now</button>
-        </div>
-        <div class="hero-overlay"></div>
-    </section>
+		<table border="1">
+			<tr>
+				<th>Sr. No.</th>
+				<th>Name</th>
+				<th>Age</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Vaibhav</td>
+				<td>21</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Shivratna</td>
+				<td>21</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Bharat</td>
+				<td>22</td>
+			</tr>
+		</table>
 
-    <!-- Destinations Section -->
-    <section class="destinations">
-        <div class="section-header">
-            <h2>Popular Destinations</h2>
-            <p>Explore the timeless wonders of the country.</p>
-        </div>
+		<h3>Subject Rating: </h3>
+		
+		<ul>
+			<table border="1">
+			<tr>
+				<th>Subject</th>
+				<th>Rating</th>
+			</tr>
+			<tr>
+				<td>Java</td>
+				<td>⭐⭐⭐⭐⭐</td>
+			</tr>
+			<tr>
+				<td>SQL</td>
+				<td>⭐⭐⭐⭐</td>
+			</tr>
+			<tr>
+				<td>JavaScript</td>
+				<td>⭐⭐⭐</td>
+			</tr>
+		</table>
 
-        <div class="cards-container">
-            <!-- Card 1 -->
-            <div class="card">
-                <div class="card-image">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROs8yknkYxeX-dnv78RE2ebP9CNDmIFGmKQg&s"
-                        alt="Kashmir">
-                </div>
-                <div class="card-content">
-                    <h3>Kashmir</h3>
-                    <p>Paradise on Earth with breathtaking valleys.</p>
-                    <a href="#" class="read-more">View Details &rarr;</a>
-                </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="card">
-                <div class="card-image">
-                    <img src="https://www.travelpack.in/public/imagedb/sysimgdocs/rszimages/11_pk29885_1.gif"
-                        alt="Kerala">
-                </div>
-                <div class="card-content">
-                    <h3>Kerala</h3>
-                    <p>God’s Own Country with serene backwaters.</p>
-                    <a href="#" class="read-more">View Details &rarr;</a>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="card">
-                <div class="card-image">
-                    <img src="https://h2.gifposter.com/bingImages/VittalaTemple_1920x1080.jpg_mb" alt="Hampi">
-                </div>
-                <div class="card-content">
-                    <h3>Hampi</h3>
-                    <p>Where history lives in stone architectures.</p>
-                    <a href="#" class="read-more">View Details &rarr;</a>
-                </div>
-            </div>
-
-            <!-- Card 4 -->
-            <div class="card">
-                <div class="card-image">
-                    <img src="https://images.bhaskarassets.com/web2images/521/2024/01/16/ezgifcom-animated-gif-maker-2_1705399434.gif"
-                        alt="Jaipur">
-                </div>
-                <div class="card-content">
-                    <h3>Jaipur</h3>
-                    <p>The Pink City, rich in royal heritage.</p>
-                    <a href="#" class="read-more">View Details &rarr;</a>
-                </div>
-            </div>
-
-            <!-- Card 5 -->
-            <div class="card">
-                <div class="card-image">
-                    <img src="https://www.indiaeasytrip.com/top-destinations-images/varanasi/places-to-visit-in-varanasi.gif"
-                        alt="Varanasi">
-                </div>
-                <div class="card-content">
-                    <h3>Varanasi</h3>
-                    <p>The spiritual capital on the Ganges banks.</p>
-                    <a href="#" class="read-more">View Details &rarr;</a>
-                </div>
-            </div>
-
-            <!-- Card 6 -->
-            <div class="card">
-                <div class="card-image">
-                    <img src="https://www.travelpack.in/public/imagedb/sysimgdocs/rszimages/Goa-Package_pk29426_1.gif"
-                        alt="Goa">
-                </div>
-                <div class="card-content">
-                    <h3>Goa</h3>
-                    <p>Sun, sand, spices and relaxation.</p>
-                    <a href="#" class="read-more">View Details &rarr;</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <h3>Incredible India</h3>
-            <p>Experience the magic of a timeless journey.</p>
-            <p class="copyright">© 2026 Incredible India. All Rights Reserved.</p>
-        </div>
-    </footer>
-
-</body>
-
+		</ul>
+	</body>
 </html>
